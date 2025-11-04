@@ -1,3 +1,5 @@
+import java.lang.reflect.Parameter;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -38,7 +40,10 @@ public class Main {
     mourek.vydejZvuk();
     */
 
-
+    Banka mBank = new Banka(10, 1000, 2,10);
+    System.out.println(mBank.vypocetSporicihoUctu());
+    Banka moneta = new Banka(10, 1000, 5,20);
+    System.out.println(moneta.vypocetSporicihoUctu());
 
 }
 }

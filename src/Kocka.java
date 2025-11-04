@@ -9,6 +9,7 @@ public class Kocka extends Zvire {
         this.ulovenoMysi = ulovenoMysi;
     }
 
+    @Override
     public  void vydejZvuk() {
         System.out.println("mňau mňau");
     }
