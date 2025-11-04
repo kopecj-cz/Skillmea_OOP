@@ -2,7 +2,7 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-
+    /*
     // Vytvoření nových objektů z třídy Domov
     Domov dumNovaku = new Domov(125.5f, 10, 3);
     Domov dumZajicu = new Domov(64.3f, 4,2);
@@ -27,7 +27,13 @@ public class Main {
 
     float cenaKauflandu = kaufland.vypocetCenyDomu(1, "Kaufland");
     System.out.println(cenaKauflandu);
-
-
     }
+    */
+
+
+
+
+
+
 }
+     */
