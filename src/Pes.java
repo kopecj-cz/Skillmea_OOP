@@ -1,16 +1,12 @@
-public class Pes {
-    private String rasa;
-    private float hmotnost;
-    private boolean jeSamec;
-    private int vrh;
-    //private String barva;
-    //private boolean ockovani;
+public class Pes extends Zvire {
 
-    Pes(String rasa, float hmotnost, boolean jeSamec; int vrh){
+    private int ulovenoZvere;
+
+    Pes(String rasa, float hmotnost, boolean jeSamec, int ulovenoZvere){
         this.rasa = rasa;
         this.hmotnost = hmotnost;
         this.jeSamec = jeSamec;
-        this vrh = vrh;
+        this.ulovenoZvere = ulovenoZvere;
     }
 
 

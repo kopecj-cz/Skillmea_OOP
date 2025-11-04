@@ -30,10 +30,15 @@ public class Main {
     }
     */
 
+    /*
+    Pes lajka = new Pes("Bígl", 12.3f, false, 8);
+    lajka.vydejZvuk();
 
-
+    Kocka mourek = new Kocka("Mývalí", 6.2f, true, 14);
+    mourek.vydejZvuk();
+    */
 
 
 
 }
-     */
+}
