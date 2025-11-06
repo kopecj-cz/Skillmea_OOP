@@ -44,6 +44,7 @@ public class Main {
     System.out.println(mBank.vypocetSporicihoUctu());
     Banka moneta = new Banka(10, 1000, 5,20);
     System.out.println(moneta.vypocetSporicihoUctu());
-
+    Banka airbank = new Banka(10, 1000, 12,100);
+    System.out.println(airbank.vypocetSporicihoUctu());
 }
 }
